@@ -1,6 +1,6 @@
 // test/main.ts
-import { BookShelf } from "../bookShelf";
-import { Book } from "../book";
+import { BookShelf } from "./bookShelf";
+import { Book } from "./book";
 const bookShelf = new BookShelf();
 bookShelf.appendBook(new Book("Around the World in 80 Days"));
 bookShelf.appendBook(new Book("Bible"));
